@@ -1,0 +1,22 @@
+{
+  "name": "dofus-api-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/test.js"
+  },
+  "keywords": ["dofus", "dofusapi", "wrapper"],
+  "author": "gonzyui",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2"
+  }
+}
